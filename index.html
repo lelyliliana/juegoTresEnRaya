@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tic-Tac-Toe</title>
+    <!-- Enlazamos el archivo CSS para los estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="contenedor">
+        <h1>Juego de Tic-Tac-Toe</h1>
+
+        <!-- Tablero de juego -->
+        <div class="tablero" id="tablero">
+            <div class="celda" onclick="hacerMovimiento(0)"></div>
+            <div class="celda" onclick="hacerMovimiento(1)"></div>
+            <div class="celda" onclick="hacerMovimiento(2)"></div>
+            <div class="celda" onclick="hacerMovimiento(3)"></div>
+            <div class="celda" onclick="hacerMovimiento(4)"></div>
+            <div class="celda" onclick="hacerMovimiento(5)"></div>
+            <div class="celda" onclick="hacerMovimiento(6)"></div>
+            <div class="celda" onclick="hacerMovimiento(7)"></div>
+            <div class="celda" onclick="hacerMovimiento(8)"></div>
+        </div>
+
+        <!-- Lugar donde se muestra el estado del juego -->
+        <div id="estadoJuego"></div>
+
+        <!-- Botón para reiniciar el juego -->
+        <button onclick="reiniciarJuego()">Reiniciar Juego</button>
+    </div>
+
+    <!-- Enlazamos el archivo JavaScript que contiene la lógica -->
+    <script src="script.js"></script>
+</body>
+</html>
+

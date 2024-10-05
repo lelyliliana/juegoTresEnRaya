@@ -1,0 +1,71 @@
+/* Estilo general para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo del título */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo del tablero */
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de cada celda */
+.celda {
+    background-color: #007BFF;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo para el estado del juego */
+#estadoJuego {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Estilo del botón de reinicio */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+/* Cambia el color del botón cuando el mouse pasa por encima */
+button:hover {
+    background-color: #0056b3;
+}
+
